@@ -145,7 +145,7 @@ main{
 
 .kv.__index {
   height: 100vh;
-  background-image: url(../龍制作ヘッダー用.jpg);
+  background-image: url(../img/header-kv.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -372,6 +372,7 @@ main{
   /* margin-left: 3vw; */
   margin-right: 3vw;
   position: relative;
+  opacity: 0.7;
 }
 
 .nav-item.__home{
@@ -379,6 +380,10 @@ main{
 }
 
 .nav-item.__home:hover{
+  color: #fff;
+  opacity: 1.0;
+}
+.nav-item.__collection:hover{
   color: #fff;
   opacity: 1.0;
 }

@@ -2,7 +2,7 @@
 
 body{
   min-height: 100vh;
-  max-width: 100vw;
+  width: 100vw;
   z-index: 1;
   font-family: 'Shippori Mincho', serif;
 }
@@ -446,7 +446,7 @@ main{
   position: relative;
   display: inline-block;
   padding-top: 16vw;
-  margin-bottom: 8vw;
+  margin-bottom: 6vw;
   transform: translateX(-50%);
   left: 50%
 }
@@ -463,6 +463,13 @@ main{
   transform: translateX(-50%);/*位置調整*/
   background-color: #2bc8d4;/*線の色*/
   border-radius: 2px;/*線の丸み*/
+}
+
+.section-ttl-sub{
+  color: #fff;
+  font-size: 1.5vw;
+  text-align: center;
+  margin-bottom: 4vw;
 }
 
 /* collection */
@@ -611,6 +618,8 @@ main{
 
 .profile-txt-sub{
   padding-top: 6vh;
+  line-height: 1.5;
+  font-size: 1.5vw;
 }
 
 /* Collection */

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>【公式】おさめしらす Official Website</title>
     <meta name="description" content="「日常に不可欠なアートを世界へ」をテーマに絵を通じて思いを伝えるアーティスト 大分県別府市出身">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,6 +32,7 @@
         <div class="kv __index"></div>
         <div class="header-ttl">
             <p class="sirasu">おさめしらす</p>
+            <p class="sirasu-sub">アーティスト</p>
             <div class="sns">
                 <a class="sns-btn" href="https://www.instagram.com/sirasu821/">
                     <div class="sns-icon">
@@ -63,16 +65,16 @@
                     <img class="collection-img" src="img/collection/1 tan.png" alt="丹">
                     <div class="collection-txt __tan">
                         <p class="collection-txt-main">思い</p>
-                        <p class="collection-txt-sub">自分の尖った部分を認めて<br>好きなことをとことん突き詰める<br>ことのできる世界を</p>    
+                        <p class="collection-txt-sub">自分の尖った部分を認めて好きなことを<br>とことん突き詰めることのできる世界を</p>    
                     </div>
                 </div>
-                <div class="collection-items">
+                <div class="collection-items __ao">
                     <div class="collection-txt __ao">
                         <p class="collection-txt-main">願い</p>
                         <p class="collection-txt-sub">絵を通じて、自身の喜怒哀楽、<br>ありのままの感情を受け入れて欲しい
                         </p>
                     </div>
-                    <img class="collection-img" src="img/collection/3 ao.png" alt="碧">
+                    <img class="collection-img __ao" src="img/collection/3 ao.png" alt="碧">
                 </div>
                 
             </div>
@@ -90,12 +92,12 @@
                     パフォーマンス
                 </h2>
                 <div class="pv">
-                    <video src="video/performance-home.mp4" class="pv-video" controls autoplay muted playsinline></video>    
+                    <video src="video/meijijinngu.mp4" class="pv-video"  autoplay playsinline></video>    
                 </div>
             </div>
 
             <div class="btn">
-                <a href="#" class="btnlink">他のパフォーマンスを見る</a>
+                <a href="collection.html" class="btnlink">完成した作品を見る</a>
             </div>
             
         </section>
@@ -110,7 +112,9 @@
                 <img class="profile-img" src="img/profile.jpg" alt="プロフィール">
                 <div class="profile-txt">
                     <p class="profile-txt-main">プロフィール</p>
-                    <p class="profile-txt-sub">　高校2年生の冬、コロナ禍により実家の家計が厳しくなり、親に負担をかけすぎず自分の生計を立てると決意した。そして、ゲームのアイコンの制作から始まり、次第にアートやパフォーマンスまで活動の幅を広げていった。<br>　2018年に、JAXAと宇宙ポストコラボ全国ポスターを手がけ、2021年には東京明治神宮でパフォーマンスデビュー戦を飾りイラストレーターからアーティストの道へ転換。</p>    
+                    <p class="profile-txt-sub-pc">　高校２年生の冬、コロナ禍により実家の家計が厳しくなり、親に負担をかけすぎず自分の生計を立てると決意した。そして、ゲームのアイコンの制作から始まり、次第にアートやパフォーマンスまで活動の幅を広げていった。<br>　２０１８年に、JAXAと宇宙ポストコラボ全国ポスターを手がけ、２０１８年には東京明治神宮でパフォーマンスデビュー戦を飾りイラストレーターからアーティストの道へ転換。</p> 
+                    
+                    <p class="profile-txt-sub-mobile">　ライブパフォーマンスに加え、襖、シャッター、柱等にも思いや気持ちをのせたアートを手がける。２０１８年に、JAXAと宇宙ポストコラボ全国ポスターを手がけ、２０１８年には東京明治神宮でパフォーマンスデビュー戦を飾りイラストレーターからアーティストの道へ転換。</p>
                 </div>
             </div>
 
@@ -121,7 +125,9 @@
         </section>
     </main>
 
-    <footer>
+
+    <!-- パソコン用フッター -->
+    <footer class="footer">
         <div class="footer">
             <nav class="footer-nav-content">
                 <a href="index.html" class="footer-nav-main">Home</a>
@@ -164,12 +170,17 @@
                 <small>&copy;Osame Sirasu.</small>
             </p>     -->
         </div>
-        <div class="footer-copy-content">
-            <p>
-                <small>&copy;Osame Sirasu.</small>
-            </p>
-        </div>
     </footer>
+
+    <div class="footer-copy-content">
+        <p>
+            <small>&copy;Osame Sirasu.</small>
+        </p>
+    </div>
+
+
+    <!-- モバイル用フッター -->
+
     
     <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
     <script>

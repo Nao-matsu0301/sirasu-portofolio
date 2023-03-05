@@ -320,11 +320,59 @@ main{
 }
  */
 
+
+
+ .header-translation-area{
+  opacity: 1;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  position: absolute;
+  left: 100px;
+  z-index: 999;
+  top: 500px;
+  font-size: 18px;
+ }
+
+
+ .translation-container{
+  padding: 7px 0;
+  color: #fff;
+  display: inline-block;
+ }
+
+ .translation-container ul{
+  display: flex;
+  justify-content: center;
+ }
+
+ .translation-item{
+  width: 50px;
+  padding-left: 15px;
+ }
+
+ .translation-item.__jp{
+  opacity: 0.5;
+ }
+
+
  @media screen and (max-width: 1024px){
   .sns-btn{
     display: none;
   }
+    .header-translation-area{
+      left: 50px;
+      top: 1200px;
+      font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 670px){
+  .header-translation-area{
+    left: 15px;
+    top: 50px;
+    font-size: 12px;
+  }
  }
+ 
 
 
 
